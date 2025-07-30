@@ -1,12 +1,101 @@
-# React + Vite
+# 🌐 Dynamic Portfolio Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application that lets users generate a **personal portfolio website** by filling out a simple form and selecting from multiple templates. Built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+----------------------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔧 Dynamic form to input:
+  -> Hero section details (name, title, image)
+  -> About, Skills, Services
+  -> Portfolio projects
+  -> Testimonials and Blog
+  -> Contact info
+- 🎨 Two professional, responsive templates
+- 📄 Preview card before final generation
+- 🌍 Fully generated portfolio page rendered based on selected template and input
+- 🖼️ Base64 image support for profile photos
+- ⚙️ Built using modular, reusable React components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+--------------------------------------------------------------------------------------
+
+## 🛠 Tech Stack
+
+- **Frontend**: React, Vite
+- **Styling**: Vanilla CSS 
+- **Routing**: React Router
+- **Deployment**: GitHub Pages / Netlify (optional)
+
+--------------------------------------------------------------------------------
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── ChooseTemplate.jsx
+│ ├── Form.jsx
+│ ├── Preview.jsx
+│ ├── Portfolio.jsx
+│ └── Header.jsx
+├── templateComponents/
+│ ├── HeroSection.jsx
+│ ├── AboutMe.jsx
+│ ├── Skills.jsx
+│ ├── Services.jsx
+│ ├── Portfolio.jsx
+│ ├── Testimonials.jsx
+│ ├── Blog.jsx
+│ ├── Contact.jsx
+│ └── Footer.jsx
+├── templates/
+│ ├── TemplateOne.jsx
+│ └── TemplateTwo.jsx
+├── assets/
+│ └── (sample images/icons)
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+-------------------------------------------------------------------------------------------
+
+## 🧑‍💻 Running Locally
+
+# 1. Clone the repository
+git clone https://github.com/your-username/dynamic-portfolio-generator.git
+cd dynamic-portfolio-generator
+
+# 2. Install dependencies
+npm install
+
+# 3. Start development server
+npm run dev
+
+-------------------------------------------------------------------------------------
+
+🔒 .gitignore Suggestions
+
+node_modules
+.env
+dist
+.vite
+.vscode
+*.log
+vite.config.js   # optional
+
+----------------------------------------------------------------------------------------
+
+📌 To-Do
+ Add template download / PDF export
+
+ Add more templates
+
+ Improve form UX and validation
+
+ Add animations or transitions
+
+
+
+✨ Acknowledgements
+Inspired by modern developer portfolios and built to make professional portfolio creation easy for anyone.
