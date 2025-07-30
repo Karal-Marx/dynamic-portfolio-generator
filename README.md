@@ -27,37 +27,6 @@ A web application that lets users generate a **personal portfolio website** by f
 - **Routing**: React Router
 - **Deployment**: GitHub Pages / Netlify (optional)
 
---------------------------------------------------------------------------------
-
-## 📁 Project Structure
-
-src/
-├── components/
-│ ├── ChooseTemplate.jsx
-│ ├── Form.jsx
-│ ├── Preview.jsx
-│ ├── Portfolio.jsx
-│ └── Header.jsx
-├── templateComponents/
-│ ├── HeroSection.jsx
-│ ├── AboutMe.jsx
-│ ├── Skills.jsx
-│ ├── Services.jsx
-│ ├── Portfolio.jsx
-│ ├── Testimonials.jsx
-│ ├── Blog.jsx
-│ ├── Contact.jsx
-│ └── Footer.jsx
-├── templates/
-│ ├── TemplateOne.jsx
-│ └── TemplateTwo.jsx
-├── assets/
-│ └── (sample images/icons)
-├── App.jsx
-├── main.jsx
-└── index.css
-
-
 -------------------------------------------------------------------------------------------
 
 ## 🧑‍💻 Running Locally
